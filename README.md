@@ -13,7 +13,7 @@ Drop this into your ~/.siriproxy/config.yml file:
 
 ```yml
 - name: 'Git'
-  git: 'git://github.com/Deanmv/SiriProxy-GithubStatus.git'
+  git: 'git://github.com/nicoritschel/siriproxy-arduino.git'
 ```
 
 Then rebundle siriproxy and you are off!
