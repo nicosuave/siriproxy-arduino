@@ -21,7 +21,9 @@ Then rebundle siriproxy and you are off!
 ##Commands
 
 'Light on'
+
 Turns the LED on
 
 'Light off'
+
 Turns the LED off
