@@ -24,3 +24,7 @@ Turns the LED on
 'Light off'
 
 Turns the LED off
+
+##Credits
+
+A big thanks goes out to @austinbv for austinbv/dino, which I rely on heavily for communicating with an Arduino
