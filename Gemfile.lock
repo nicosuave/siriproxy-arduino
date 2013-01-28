@@ -1,0 +1,18 @@
+PATH
+  remote: .
+  specs:
+    siriproxy-arduino (0.0.1)
+      dino
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    dino (0.10.0)
+      serialport
+    serialport (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  siriproxy-arduino!
