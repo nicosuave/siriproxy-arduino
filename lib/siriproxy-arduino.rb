@@ -11,7 +11,7 @@ require 'dino'
 # Remember to add other plugins to the "config.yml" file if you create them!
 ######
 
-class SiriProxy::Plugin::Example < SiriProxy::Plugin
+class SiriProxy::Plugin::Arduino < SiriProxy::Plugin
   def initialize(config)
     #if you have custom configuration options, process them here!
     board = Dino::Board.new(Dino::TxRx.new)
