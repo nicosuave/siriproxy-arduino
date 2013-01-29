@@ -30,9 +30,9 @@ Add this into your ~/.siriproxy/config.yml file:
 
 In a terminal, $ siriproxy bundle
 
-###Dino Configuration
+Don't forget to upload the arduino botstrapper to your device.
 
-####Upload the Bootstrapper
+###Upload the dino Bootstrapper
 
  * Open [the normal Arduino IDE](http://arduino.cc/en/Main/Software)
  * Download the bootstrapper [src/du.ino](https://raw.github.com/austinbv/dino/master/src/du.ino)
