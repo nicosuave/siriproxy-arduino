@@ -4,10 +4,12 @@ A SiriProxy plugin to interface with an Arduino and toggle the on-board led
 ###Video
 [Initial proof-of-concept](http://www.youtube.com/watch?v=l1QvFahhBUU)
 
-###Installation
+###SiriProxy Installation
 In a terminal, $ git clone http://github.com/nicoritschel/SiriProxy.git
 
 Follow the included README.
+
+###siriproxy-arduino Installation
 
 Add this into your ~/.siriproxy/config.yml file:
 
