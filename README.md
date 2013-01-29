@@ -30,7 +30,7 @@ Add this into your ~/.siriproxy/config.yml file:
 
 In a terminal, $ siriproxy bundle
 
-Don't forget to upload the arduino botstrapper to your device.
+Don't forget to upload the arduino bootstrapper to your device.
 
 ###Upload the dino Bootstrapper
 
