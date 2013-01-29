@@ -6,11 +6,11 @@ A SiriProxy plugin to interface with an Arduino and toggle the on-board led
 
 ###Commands
 
-`Light on`
+`Light(s) on`
 
 Turns the LED on
 
-`Light off`
+`Light(s) off`
 
 Turns the LED off
 
