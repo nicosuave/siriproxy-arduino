@@ -32,7 +32,7 @@ In a terminal, $ siriproxy bundle
 
 ###Dino Configuration
 
- ####Upload the Bootstrapper
+####Upload the Bootstrapper
 
  * Open [the normal Arduino IDE](http://arduino.cc/en/Main/Software)
  * Download the bootstrapper [src/du.ino](https://raw.github.com/austinbv/dino/master/src/du.ino)
