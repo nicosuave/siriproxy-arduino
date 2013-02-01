@@ -4,11 +4,8 @@ require 'pp'
 require 'dino'
 
 #######
-# This is a "hello world" style plugin. It simply intercepts the phrase "test siri proxy" and responds
-# with a message about the proxy being up and running (along with a couple other core features). This
-# is good base code for other plugins.
-#
-# Remember to add other plugins to the "config.yml" file if you create them!
+# siriproxy-arduino is boilerplate code for controlling your Arduino from Siri.
+# I hope you find this as useful as I do. Home automation from your iPhone... 
 ######
 
 class SiriProxy::Plugin::Arduino < SiriProxy::Plugin
@@ -33,14 +30,20 @@ class SiriProxy::Plugin::Arduino < SiriProxy::Plugin
 
   listen_for /light(s)? green/i do
     @rgb_led.green
+    say "Light is green"
+    request_completed
   end
 
   listen_for /light(s)? blue/i do
     @rgb_led.blue
+    say "Light is blue"
+    request_completed
   end
 
   listen_for /light(s)? red/i do
     @rgb_led.red
+    say "Light is red"
+    request_completed
   end
 
 end
