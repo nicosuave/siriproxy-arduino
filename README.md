@@ -6,25 +6,11 @@ A SiriProxy plugin to interface with an Arduino. Basic examples are provided for
 
 ###Commands
 
-`Light(s) on`
+####LED
+`Light(s) on`, `Light(s) off`
 
-Turns the LED on
-
-`Light(s) off`
-
-Turns the LED off
-
-`Light(s) red`
-
-Turns an RGB LED red
-
-`Light(s) blue`
-
-Turns an RGB LED blue
-
-`Light(s) green`
-
-Turns an RGB LED green
+####RGB LED
+`Light(s) red`, `Light(s) blue`, `Light(s) green`
 
 ###SiriProxy Installation
 
@@ -32,20 +18,20 @@ Unfortunately, [SiriProxy](https://github.com/plamoni/SiriProxy) is poorly maint
 
 **Until SiriProxy is more regularly updated, please install SiriProxy using my fork.** 
 
-In a terminal, $ git clone http://github.com/nicoritschel/SiriProxy.git
+In a terminal, `git clone http://github.com/nicoritschel/SiriProxy.git`
 
 Follow the included README.
 
 ###siriproxy-arduino Installation
 
-Add this into your ~/.siriproxy/config.yml file:
+Add this to your ~/.siriproxy/config.yml file:
 
 ```yml
 - name: 'Git'
   git: 'git://github.com/nicoritschel/siriproxy-arduino.git'
 ```
 
-In a terminal, $ siriproxy bundle
+In a terminal, `siriproxy bundle`
 
 Don't forget to upload the arduino bootstrapper to your device.
 
