@@ -1,18 +1,20 @@
-#siriproxy-arduino
+# siriproxy-arduino
+Note: This is not useful any more!
+
 A SiriProxy plugin to interface with an Arduino. Basic examples are provided for controlling the onboard LED, or alternatively, an RGB LED.
 
-###Video
+### Video
 [Initial proof-of-concept](http://www.youtube.com/watch?v=l1QvFahhBUU)
 
-###Commands
+### Commands
 
-####LED
+#### LED
 `Light(s) on`, `Light(s) off`
 
-####RGB LED
+#### RGB LED
 `Light(s) red`, `Light(s) blue`, `Light(s) green`
 
-###SiriProxy Installation
+### SiriProxy Installation
 
 Unfortunately, [SiriProxy](https://github.com/plamoni/SiriProxy) is poorly maintained, and will not work correctly with an iOS 6 device.
 
@@ -22,7 +24,7 @@ In a terminal, `git clone http://github.com/nicoritschel/SiriProxy.git`
 
 Follow the included README.
 
-###siriproxy-arduino Installation
+### siriproxy-arduino Installation
 
 Add this to your ~/.siriproxy/config.yml file:
 
@@ -35,7 +37,7 @@ In a terminal, `siriproxy bundle`
 
 Don't forget to upload the arduino bootstrapper to your device.
 
-###Upload the dino Bootstrapper
+### Upload the dino Bootstrapper
 
  * Open [the normal Arduino IDE](http://arduino.cc/en/Main/Software)
  * Download the bootstrapper [src/du.ino](https://raw.github.com/austinbv/dino/master/src/du.ino)
@@ -43,6 +45,6 @@ Don't forget to upload the arduino bootstrapper to your device.
  * Plug in your Arduino via USB
  * Click the upload button (an arrow)
 
-###Credits
+### Credits
 
 A big thanks goes out to @austinbv for austinbv/dino, which I rely on heavily for communicating with an Arduino
